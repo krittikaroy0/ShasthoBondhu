@@ -1,0 +1,62 @@
+/* common code start */
+:root{
+    --primary-color: #78dbf1;
+    --secondary-color: #f3efa3;
+    --light-color: #FEFBFC;
+    --dark-color: #040404;
+}
+.container{
+    min-width: 360px;
+}
+/* header section start */
+#header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/bg_3-440.jpg) no-repeat center;
+    background-size: cover;
+    height: 755px;
+}
+/* header section end */
+/* navbar section start */
+
+#navbar .nav-link{
+    padding: var(--bs-nav-link-padding-y) 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--light-color);
+    text-transform: uppercase;
+
+    &:hover{
+        color: var(--primary-color);
+    }
+
+    &.active{
+        color: var(--primary-color);
+    }
+}
+
+#navbar .dropdown-menu {
+    --bs-dropdown-bg: transparent;
+}
+/* navbar section end */
+/* header section start */
+#search{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/bg_2-445.jpg) no-repeat center;
+    background-size: cover;
+    height: 555px;
+    margin-bottom: 5px;
+}
+#department{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../img/image_6-997.jpg) no-repeat center;
+    background-size: cover;
+    height: 760px;
+}
+    #department .card {
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    #department .card:hover {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
+    }

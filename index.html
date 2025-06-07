@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- default css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header section start -->
+    <header id="header" class=" img-fluid">
+        <!-- nav 1 section start -->
+        <div class="row text-secondary clearfix">
+            <!-- Call Us -->
+            <div class="col-4 pt-3">
+                <div class="contact-content d-flex flex-column align-items-center">
+                    <a href="tel:+880 1753594577" target="_blank"
+                        class="d-flex align-items-center gap-2 text-decoration-none text-success">
+                        <i class="fa fa-phone"></i>
+                        <h6 class="fw text-uppercase mb-0">Call us</h6>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Email Us -->
+            <div class="col-4 pt-3">
+                <div class="contact-content d-flex flex-column align-items-center">
+                    <a href="mailto: krittikaroy2020@gmail.com" target="_blank"
+                        class="d-flex align-items-center gap-2 text-decoration-none text-success">
+                        <i class="fa fa-envelope"></i>
+                        <h6 class="fw text-uppercase mb-0">Email Us</h6>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sign in / Sign up -->
+            <div class="col-4 d-flex justify-content-between align-items-center pt-3">
+                <div class="col-5">
+                    <a href="#" class="text-uppercase text-success text-decoration-none text-center fw-bold">Log in</a>
+                </div>
+                <div class="col-7 ">
+                    <a href="#"
+                        class="text-uppercase text-success text-decoration-none text-center fw-bold ">Registration</a>
+                </div>
+            </div>
+        </div><!-- nav 1 section end -->
+        <!-- nav section start -->
+        <nav id="navbar" class="navbar navbar-expand-lg pt-3">
+            <a class="navbar-brand ms-5 text-uppercase text-warning fs-5" href="index.html">
+                <i class="fa fa-stethoscope text-info gap-2"></i>
+                HealthCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-3">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#department">Department</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="contact.html">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-danger fs-5" href="#fc">Appoinment</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- nav section end -->
+        <section class="container">
+            <!-- slider section start -->
+            <div id="carouselIndicators" class="carousel slide text-center py-5">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner text-center text-light py-5 my-3">
+                    <div class="carousel-item active py-lg-2">
+                        <h2 class="display-5 fw-semibold "> Welcome to <i class="fa fa-stethoscope text-info gap-2"></i>
+                            HealthCare</h2>
+                        <h1 class="display-1 fw-semibold border border-3 d-inline-block py-3 px-3 text-warning">
+                            We are here for your Care!</h1>
+                        <p class="fw-semibold h4">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
+                            <br><br>
+                            <a class="btn btn-primary" href="#fc">Make an appoinment</a>
+                        </p>
+                    </div>
+                    <div class="carousel-item  py-lg-2">
+                        <h2 class="display-5 fw-semibold "> Welcome to <i class="fa fa-stethoscope text-info gap-2"></i>
+                            HealthCare</h2>
+                        <h1 class="display-1 fw-semibold border border-3 d-inline-block py-3 px-3 text-primary">
+                            We are here for your Care!</h1>
+                        <p class="fw-semibold h4">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
+                            <br><br>
+                            <a class="btn btn-primary" href="#fc">Make an appoinment</a>
+                        </p>
+                    </div>
+                    <div class="carousel-item py-lg-2">
+                        <h2 class="display-5 fw-semibold "> Welcome to <i class="fa fa-stethoscope text-info gap-2"></i>
+                            HealthCare</h2>
+                        <h1 class="display-1 fw-semibold border border-3 d-inline-block py-3 px-3 text-success">
+                            We are here for your Care!</h1>
+                        <p class="fw-semibold h4">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
+                            <br><br>
+                            <a class="btn btn-primary" href="#fc">Make an appoinment</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- slider section end -->
+        </section>
+    </header>
+    <!-- header section end -->
+    <!-- about section start -->
+    <section id="about" class="py-5 bg-light">
+        <section class="container">
+            <div class="row gy-4 align-items-center">
+                <!-- Image Column -->
+                <div class="col-lg-6 col-12 order-1 order-lg-1 text-center">
+                    <img src="assets/img/about-374.jpg" alt="About Image" class="img-fluid w-75">
+                </div>
+
+                <!-- Text Content Column -->
+                <div class="col-lg-6 col-12 order-2 order-lg-2">
+                    <!-- <h1 class="text-warning  text-uppercase text-center"><u>About Us</u></h1> -->
+                    <div class="px-3 px-lg-5">
+                        <h1 class="text-primary mb-3">We Are HealthCare A Medical Clinic.</h1>
+                        <p class="mb-4">
+                            Some quick example text to build on the card title and make up the bulk of the card’s
+                            content.
+                        </p>
+                        <a href="#fc" class="btn btn-outline-success me-2">Make an Appointment</a>
+                        <a href="#" class="btn btn-outline-danger">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- about section end -->
+    <!-- Service Section Start -->
+    <section id="service" class="py-5 bg-body-secondary">
+        <div class="container">
+            <div class="row gy-4">
+                <!-- Service Items -->
+                <div class="col-lg-7 col-sm-12 order-sm-2">
+                    <h1 class="text-warning text-uppercase text-center mb-5 py-3"><u>Our Services</u></h1>
+                    <div class="row g-4 pt-3">
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <i class="fa fa-truck-medical fa-5x mb-3 text-info"></i>
+                                <h4 class="h2 text-primary">Emergency Services</h4>
+                                <p class="fw-lighter">A small river named Duden flows by their place and supplies it
+                                    with the necessary
+                                    regelialia.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <i class="fa fa-user-doctor fa-5x mb-3 text-info"></i>
+                                <h4 class="h2 text-primary">Qualified Doctors</h4>
+                                <p class="fw-lighter">A small river named Duden flows by their place and supplies it
+                                    with the necessary
+                                    regelialia.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <i class="fa fa-stethoscope fa-5x mb-3 text-info"></i>
+                                <h4 class="h2 text-primary">Advanced Equipment</h4>
+                                <p class="fw-lighter">A small river named Duden flows by their place and supplies it
+                                    with the necessary
+                                    regelialia.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <i class="fa fa-clock fa-5x mb-3 text-info"></i>
+                                <h4 class="h2 text-primary">24/7 Availability</h4>
+                                <p class="fw-lighter">A small river named Duden flows by their place and supplies it
+                                    with the necessary
+                                    regelialia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- form Content start -->
+                <div id="fc" class="col-lg-5 col-sm-12 order-sm-2 card py-3">
+                    <h4 class="text-primary text-uppercase mb-4 text-center">Free Consultation</h4>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-6">
+                            <label for="validationCustom01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01"
+                                placeholder="Enter your First name" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02"
+                                placeholder="Enter your Last name" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+
+                        <div id="emailForm" class="col-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com"
+                                required>
+                            <div id="errorMsg" class="text-danger mt-2" style="display: none;">Please enter a valid
+                                Gmail address.</div>
+                        </div>
+                        <div class="col-6">
+                            <label for="inputGroupFile02" class="form-label">Upload Image</label>
+                            <input type="file" class="form-control" id="inputGroupFile02" name="image" accept="image/*"
+                                required>
+                            <img id="preview" src="#" alt="Image Preview" class="img-thumbnail mt-2"
+                                style="display: none; max-height: 200px;">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">City</label>
+                            <input type="text" class="form-control" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid city.
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <label for="validationCustom04" class="form-label">State</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Choose State</option>
+                                <option>Bangladesh</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                                <option>India</option>
+                                <option>Pakistan</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <label for="validationCustom05" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="validationCustom05" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid zip.
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label for="validationCustom06" class="form-label">Select Your Services</label>
+                            <select class="form-select" id="validationCustom06" required>
+                                <option selected disabled value="">Select Your Services</option>
+                                <option>Neurology</option>
+                                <option>Orthopedics</option>
+                                <option>Cardiology</option>
+                                <option>Pediatrics</option>
+                                <option>Gynecology & Obstetrics</option>
+                                <option>Dermatology</option>
+                                <option>Gastroenterology</option>
+                                <option>Pulmonology</option>
+                                <option>Oncology</option>
+                                <option>Urology</option>
+                                <option>Nephrology</option>
+                                <option>Ophthalmology</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label for="validationCustom05" class="form-label">Date & Time</label>
+                            <input type="datetime-local" class="form-control" id="validationCustom05" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Describe Your Problem in Message......"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-grid gap-2 col-6 mx-auto ">
+                            <button class="btn btn-primary" type="submit">Make an appoinment</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- form Content End -->
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+    <!-- search section start -->
+    <section id="search" class="py-5 bg-light img-fluid">
+        <section class="container">
+            <div class="row gy-4 align-items-center">
+                <!-- Text Content Column -->
+                <div class="col-lg-12 col-12 order-2 order-lg-2 p-5 mx-auto">
+                    <!-- <h1 class="text-warning  text-uppercase text-center"><u>About Us</u></h1> -->
+                    <div class="px-3 px-lg-5">
+                        <h1 class="text-primary mb-3">Your Health is Our Priority</h1>
+                        <p class="mb-4 fw-lighter text-light">
+                            We can manage your dream building A small river named Duden flows by their place.
+                        </p>
+                        <!-- <h2>Search Doctors or Departments</h2> -->
+                        <div class="col-6 rou">
+                            <form id="searchForm" class="mb-3">
+                                <input type="text" id="searchQuery" class="form-control"
+                                    placeholder="Search Doctor name & department">
+                            </form>
+                            <div id="results"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- search section end -->
+    <!-- department section start -->
+    <section class="p-3 img-fluid" id="department">
+        <section class="container mt-2">
+            <!-- Department cards -->
+            <div class="col-12 p-2">
+                 <h1 class="text-warning text-uppercase text-center py-2 mb-3"><u>Our Departments</u></h1>
+                <div class="row g-3">
+                    <!-- Column 1 -->
+                    <div class="col-md-4">
+                        <div class="department-wrap p-4 card text-center ">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Neurology</a></h3>
+                            <p>Specialized care for nervous system disorders.</p>
+                        </div>
+
+                        <div class="department-wrap p-4 card text-center ">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Surgical</a></h3>
+                            <p>Advanced surgical treatments and care.</p>
+                        </div>
+
+                        <div class="department-wrap p-4 card text-center">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Dental</a></h3>
+                            <p>Comprehensive dental health solutions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="col-md-4">
+                        <div class="department-wrap p-4 card text-center ">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Ophthalmology</a></h3>
+                            <p>Expert eye and vision care services.</p>
+                        </div>
+
+                        <div class="department-wrap p-4 card text-center ">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Cardiology</a></h3>
+                            <p>Heart care from diagnostics to surgery.</p>
+                        </div>
+
+                        <div class="department-wrap p-4 card text-center">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Traumatology</a></h3>
+                            <p>Emergency and trauma treatment center.</p>
+                        </div>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="col-md-4">
+                        <div class="department-wrap p-4 card text-center">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Nuclear Magnetic</a></h3>
+                            <p>Advanced MRI scanning and analysis.</p>
+                        </div>
+
+                        <div class="department-wrap p-4 card text-center ">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">X-Ray</a></h3>
+                            <p>Digital radiology and imaging services.</p>
+                        </div>
+
+                        <div class="department-wrap p-4 card text-center">
+                            <div class="icon mb-3">
+                                <i class="fa fa-stethoscope text-info fa-3x"></i>
+                            </div>
+                            <h3><a href="#" class="text-decoration-none h5 text-primary">Cardiology</a></h3>
+                            <p>Heart care from diagnostics to surgery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <!-- department Section End -->
+    <!-- footer section start -->
+    <footer id="footer" class="py-4">
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content text-center text-success">
+                        <p class="lead m-0">Krittika Roy 2025 &copy Copyright</p>
+                        <p class="lead m-0" id="datetime"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- default js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
